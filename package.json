@@ -9,7 +9,7 @@
     "restart": "pm2 restart KAVI-EXE"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",
+    "@whiskeysockets/baileys": "github:AxellNetwork/Baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@mrnima/tiktok-downloader": "1.0.0",
