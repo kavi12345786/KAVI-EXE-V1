@@ -1,5 +1,3 @@
-const EventEmitter = require('events');
-EventEmitter.defaultMaxListeners = 5000;
 const {
 default: makeWASocket,
 useMultiFileAuthState,
