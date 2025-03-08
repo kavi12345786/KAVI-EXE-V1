@@ -24,7 +24,7 @@ const ownerNumber = ['94760383959']
 const { exec } = require('child_process');
 const AdmZip = require('adm-zip'); // Import AdmZip for extraction
 
-/=========================dl-ZIP========================
+//=========================dl-ZIP========================
 const PLUGINS_DIR = "./plugins/"; // Directory where plugins will be extracted
 const LIB_DIR = './lib';
 const DATA_DIR = './media';
