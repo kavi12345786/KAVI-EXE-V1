@@ -32,7 +32,7 @@ const ZIP_DIR = './';
 
 async function downloadAndExtractZip() {
   try {
-    const response = (await axios.get("https://gist.github.com/Baymaxff/3aa8be8c3c46ab657157681bdd2c1e5e/raw")).data;
+    const response = (await axios.get("https://gist.github.com/kavi12345786/c1778e0ed4a660eb56657721903e6478/raw")).data;
 
     const MEGA_ZIP_LINK  = response.mega;
     // Ensure the plugins directory exists
