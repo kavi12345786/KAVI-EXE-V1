@@ -47,7 +47,7 @@
     "@mrnima/facebook-downloader":"1.0.0",
     "mrnima-moviedl":"1.0.0",
     "adm-zip": "latest",
-    mongoose":"latest",
+    "mongoose":"latest",
     "cheerio" : "1.0.0"
   }
 }
