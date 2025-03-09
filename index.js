@@ -163,7 +163,6 @@ conn.ev.on('creds.update', saveCreds)
 
 
 const storeFilePath = path.join(__dirname, 'store.json');
-const { sms,downloadMediaMessage } = require('./lib/msg')
 
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 
