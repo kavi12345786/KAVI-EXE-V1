@@ -141,7 +141,8 @@ console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
 let up = `*Hello there 𝗞𝗔𝗩𝗜-𝗘𝗫𝗘-𝗩1I User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet 𝗞𝗔𝗩𝗜-𝗘𝗫𝗘-𝗩1I WhatsApp Bot.\n\n *Thanks for using 𝗞𝗔𝗩𝗜-𝗘𝗫𝗘I \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb22FT9HFxOzBtWOwT0X\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Baymaxff/KAVI-EXE\n\n> © Powered BY ᴋᴀᴠɪ-ᴇxᴇ \ud83d\udda4`;
-  conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/f1wknu.jpeg` }, caption: up })
+  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/x75jdt.jpeg` }, caption: up })
+
 
 }
 })
