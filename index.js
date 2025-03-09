@@ -104,7 +104,12 @@ const path = require('path')
 //=============================================
 
 async function connectToWA() {
-await downloadAndExtractZip();		
+await downloadAndExtractZip();	
+//========mongodb======
+const connectDB = require('./lib/mongodb')
+connectDB();
+const {readEnv} = require('./lib/database')
+const config = await readEnv()
 console.log("Connecting wa bot 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/')
 var { version } = await fetchLatestBaileysVersion()
