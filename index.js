@@ -121,7 +121,7 @@ const conn = makeWASocket({
         syncFullHistory: true,
         auth: state,
         version
-        }
+        })
     
 conn.ev.on('connection.update', (update) => {
 const { connection, lastDisconnect } = update
