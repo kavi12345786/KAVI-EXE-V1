@@ -8,13 +8,13 @@ fetchLatestBaileysVersion,
 Browsers
 } = require('@whiskeysockets/baileys')
 
-
+//const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
 const P = require('pino')
 const config = require('./config')
 const qrcode = require('qrcode-terminal')
 const util = require('util')
-const { sms,downloadMediaMessage } = require('./lib/msg')
+//const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
