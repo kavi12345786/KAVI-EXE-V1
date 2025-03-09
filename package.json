@@ -46,7 +46,6 @@
     "@mrnima/tiktok-downloader":"1.0.0",
     "@mrnima/facebook-downloader":"1.0.0",
     "mongoose":"latest", 
-    "adm-zip": "^0.5.16"
     "mrnima-moviedl":"1.0.0"
   }
 }
