@@ -162,9 +162,6 @@ conn.ev.on("call", async(json) => {
 conn.ev.on('creds.update', saveCreds)  
 
 
-const storeFilePath = path.join(__dirname, 'store.json');
-
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 
 // Delete the store file upon restart to clear data
 if (fs.existsSync(storeFilePath)) {
