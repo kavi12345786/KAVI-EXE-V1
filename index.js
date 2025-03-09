@@ -230,6 +230,18 @@ conn.ev.on("call", async(json) => {
 	
 conn.ev.on('creds.update', saveCreds)  
 
+	
+const storeFilePath = path.join(__dirname, 'store.json');
+const { sms,downloadMediaMessage } = require('./lib/msg')
+
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
+
+// Delete the store file upon restart to clear data
+if (fs.existsSync(storeFilePath)) {
+    fs.unlinkSync(storeFilePath);
+    console.log('Store file deleted on restart.');
+}
+
 conn.ev.on('messages.upsert', async(mek) => {
 mek = mek.messages[0]
 if (!mek.message) return	
