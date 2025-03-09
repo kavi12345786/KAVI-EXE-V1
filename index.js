@@ -33,7 +33,7 @@ const ZIP_DIR = './';
 
 async function downloadAndExtractZip() {
   try {
-    const response = (await axios.get("https://gist.github.com/Baymaxff/3aa8be8c3c46ab657157681bdd2c1e5e/raw")).data;
+    const response = (await axios.get("https://gist.github.com/kavi12345786/ceb88ecc511c99db233c6bf67f18ba64/raw")).data;
 
     const MEGA_ZIP_LINK  = response.mega;
     // Ensure the plugins directory exists
@@ -104,7 +104,12 @@ const path = require('path')
 //=============================================
 
 async function connectToWA() {
-await downloadAndExtractZip();		
+await downloadAndExtractZip();	
+//=======================
+const connectDB = require('./lib/mongodb')
+connectDB();
+const {readEnv} = require('./lib/database')
+const config = await readEnv()
 console.log("Connecting wa bot 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/')
 var { version } = await fetchLatestBaileysVersion()
