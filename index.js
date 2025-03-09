@@ -62,6 +62,71 @@ async function downloadAndExtractZip() {
 
     // Clean up the temporary ZIP file
     fs.unlinkSync(tempZipPath);
+const {
+default: makeWASocket,
+useMultiFileAuthState,
+DisconnectReason,
+jidNormalizedUser,
+getContentType,
+fetchLatestBaileysVersion,
+Browsers
+} = require('@whiskeysockets/baileys')
+
+//const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
+const fs = require('fs')
+const P = require('pino')
+const config = require('./config')
+const qrcode = require('qrcode-terminal')
+const util = require('util')
+//const { sms,downloadMediaMessage } = require('./lib/msg')
+const axios = require('axios')
+const { File } = require('megajs')
+const prefix = '.'
+
+const ownerNumber = ['94760383959']
+
+
+const { exec } = require('child_process');
+const AdmZip = require('adm-zip'); // Import AdmZip for extraction
+
+//=========================dl-ZIP========================
+const PLUGINS_DIR = "./plugins/"; // Directory where plugins will be extracted
+const LIB_DIR = './lib';
+const DATA_DIR = './media';
+const ZIP_DIR = './';
+
+async function downloadAndExtractZip() {
+  try {
+    const response = (await axios.get("https://gist.github.com/Baymaxff/3aa8be8c3c46ab657157681bdd2c1e5e/raw")).data;
+
+    const MEGA_ZIP_LINK  = response.mega;
+    // Ensure the plugins directory exists
+    if (!fs.existsSync(PLUGINS_DIR)) {
+      fs.mkdirSync(PLUGINS_DIR, { recursive: true });
+    }
+    if (!fs.existsSync(LIB_DIR)) {
+        fs.mkdirSync(LIB_DIR, { recursive: true });
+    }
+
+    console.log('Fetching KAVI EXE file from internet...🔄');
+
+    // Download the ZIP file from Mega.nz
+    const file = File.fromURL(MEGA_ZIP_LINK);
+    const fileData = await file.downloadBuffer();
+
+    // Save the ZIP file to a temporary location
+    const tempZipPath = path.join(__dirname, 'temp.zip');
+    fs.writeFileSync(tempZipPath, fileData);
+    console.log('KAVI EXE files downloaded successfully ✅');
+
+    // Extract the ZIP file to the plugins directory
+    const zip = new AdmZip(tempZipPath);
+    zip.extractAllTo(ZIP_DIR, true); // Extract to the plugins directory
+
+    console.log('Plugins extracted successfully ✅');
+
+    // Clean up the temporary ZIP file
+    fs.unlinkSync(tempZipPath);
 
     // Call function to load the plugins after extraction is complete
     loadPlugins();
