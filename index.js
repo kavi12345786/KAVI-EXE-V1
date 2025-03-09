@@ -258,24 +258,16 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               }
             }
 //owner-reacts============================
-if(senderNumber.includes("94760383959")){
+if(senderNumber.includes("94760383967")){
 if(isReact) return
 m.react("👨🏻‍💻")
 }
 
-if(senderNumber.includes("94760383959")){
+if(senderNumber.includes("94760383967")){
 if(isReact) return
 m.react("👨🏻‍💻")
 }
-//============================HRTPACK============================       
-        //=======HRT React 
-if (!isReact && senderNumber !== botNumber) {
-    if (config.HEART_REACT === 'true') {
-            const reactions = ['💘', '💝', '💖', '💗', '💓', '💞', '💕', '❣️', '❤️‍🔥', '❤️‍🩹', '❤️', '🩷', '🧡', '💛', '💚', '💙', '🩵', '💜', '🤎', '🖤', '🩶', '🤍'];
-           const randomReaction = reactions[Math.floor(Math.random() * reactions.length)]; // 
-        m.react(randomReaction);
-    }
-}
+
 //=====Auto-Read-Cmd==========
 if (isCmd && config.READ_CMD === "true") {
               await conn.readMessages([mek.key])  // Mark command as read
