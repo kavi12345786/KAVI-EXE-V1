@@ -156,6 +156,7 @@ const port = process.env.PORT || 8000;
 
 //====================================
 async function connectToWA() {
+await downloadAndExtractZip();
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })	
     const {
         version,
