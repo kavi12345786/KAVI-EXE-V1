@@ -357,8 +357,11 @@ if ( q == 'off' ) {
 reply('*Error !!*')
 l(e)
 }
-})		
+})
 
+]
+}
+]
   const listMessage = {
 caption: dat,
 image : { url: config.LOGO },	
