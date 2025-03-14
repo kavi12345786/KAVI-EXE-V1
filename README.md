@@ -71,3 +71,10 @@
   
 ## DEPLOY IN RENDER    
 [![Deploy on RENDER](https://img.shields.io/badge/render%20Account-green?style=for-the-badge&logo=render)](https://dashboard.render.com/registerundefined)  
+
+
+  ## CONTACT 
+  [`WA channel`](https://whatsapp.com/channel/0029Vb22FT9HFxOzBtWOwT0X)
+
+ [`contact_me`](https://Wa.me/+94760383959)
+
