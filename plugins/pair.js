@@ -1,5 +1,27 @@
-const config = require('../settings');
-const { cmd, commands } = require('../lib/command');
+const config = require('../settings')
+const os = require('os')
+const fs = require('fs')
+const si = require('systeminformation')
+const prefix = config.PREFIX
+const simpleGit = require('simple-git')
+const Levels = require("discord-xp")
+const git = simpleGit()
+const Heroku = require('heroku-client')
+const appname = process.env.APP_NAME || ''
+const herokuapi = process.env.HEROKU_API
+const pingSt = new Date();
+const { cmd, commands } = require('../lib/command')
+const DB = require('../lib/scraper')
+const owner = JSON.parse(fs.readFileSync('./lib/owner.json'))
+const devlopernumber = "94711453361"
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson,clockString, jsonformat} = require('../lib/functions')
+var { updateCMDStore,isbtnID,getCMDStore,getCmdForCmdId,connectdb,input,get, updb,updfb } = require("../lib/database")
+const {
+    default: makeWASocket,
+    generateWAMessageFromContent,
+    prepareWAMessageMedia,
+    proto
+} = require('@whiskeysockets/baileys')
 
 cmd({
     pattern: "pair",
