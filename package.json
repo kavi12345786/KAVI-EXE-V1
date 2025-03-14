@@ -63,10 +63,6 @@
     "puppeteer":"latest",
     "imagemaker.js":"latest",
     "discord-xp": "latest",  
-    "sequelize": "^6.28.0",
-    "sqlite3": "5.1.7",
-    "vm": "^0.1.0",
-    "adm-zip": "latest",
-    "cheerio" : "1.0.0"
+    "sequelize": "^6.28.0"
   }
 }
