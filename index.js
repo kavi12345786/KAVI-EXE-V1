@@ -448,6 +448,7 @@ conn.ev.on('messages.update', async(mes) => {
 //==================================================================	
 
     conn.ev.on('creds.update', saveCreds)
+    const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
     conn.ev.on('messages.upsert', async (mek) => {
       try {
             mek = mek.messages[0]
