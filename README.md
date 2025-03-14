@@ -3,7 +3,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Am+Kavi+Exe+V1+Created+By+KAVI_BOY..&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=𝙆𝘼𝙑𝙄+𝙀𝙓𝙀+𝙎𝙏𝘼𝙏𝙐𝙎+𝙍𝙀𝘼𝘿𝙀𝙍+𝘽𝙊𝙏+&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>                       
   <a href="https://ibb.co/N6NMDtn"><img src="https://files.catbox.moe/j4lyrn.jpeg" alt="01" border="0" /></a>     
@@ -42,10 +42,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/kavi12345786/KAVI-EXE-V1)
 ---------
 
-## ```HEROKU TUTORIAL```
-[![Watch on YOUTUBE](https://img.shields.io/badge/youtube%20TUTORIAL-red?style=for-the-badge&logo=youtube)](https://youtu.be) 
----------
-
 ## ```STEPS TO DEPLOY ON HEROKU```
 
 - 1. Fork this repo (Don't forget to give a star)
@@ -53,24 +49,8 @@
 - 3. Upload your session file.
 - 4. Simply click Deploy to heroku button above
 
-
-  
- # Setup For Deployment 👇
-
-- ⛔Download THE REPOSITORY
-
-
-
-
-**(E) KataBump PANEL🔥(DISCORD) DEPLOYMENT**
-<details>
-<summary>TAP TO OPEN</summary>
-<a href=""><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-yellow" alt="Rainhost Files" width="150"></a>
-  
-<a href="https://dashboard.katabump.com/welcome/#b0cbf7"><img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-gold" alt="Scalingo Deploy" width="150"></a>
-</details
-
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 
 ## DEPLOY IN KOYEB    
