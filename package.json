@@ -64,7 +64,7 @@
     "imagemaker.js":"latest",
     "discord-xp": "latest",  
     "sequelize": "^6.28.0",
-        "sqlite3": "5.1.7",
-    "adm-zip": "^0.5.16"
+    "sqlite3": "5.1.7",
+    "adm-zip": "latest"
   }
 }
